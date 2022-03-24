@@ -1,0 +1,16 @@
+.header-area{
+    background: #1C2B35;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px 10px;
+    color: #fff;
+}

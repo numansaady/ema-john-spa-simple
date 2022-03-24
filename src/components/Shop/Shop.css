@@ -1,0 +1,20 @@
+.shop-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 50px 80px;
+}
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.cart-container {
+  background-color: burlywood;
+  margin-left: 10px;
+}
+.order-summery {
+  position: sticky;
+  top: 20px;
+  padding: 5px 20px;
+}
